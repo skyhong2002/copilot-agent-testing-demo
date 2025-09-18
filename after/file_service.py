@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os
 import logging
 from typing import List, Dict, Any
-from exceptions import APIException
+from .exceptions import APIException
 
 logger = logging.getLogger(__name__)
 

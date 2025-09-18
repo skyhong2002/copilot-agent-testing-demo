@@ -1,6 +1,6 @@
 import re
 from typing import Dict, Any, List
-from exceptions import ValidationError
+from .exceptions import ValidationError
 
 class DataValidator:
     """Handles data validation operations."""

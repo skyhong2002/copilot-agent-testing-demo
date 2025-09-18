@@ -1,7 +1,7 @@
 import logging
 from typing import List, Dict, Any, Optional
-from config import DatabaseConfig
-from exceptions import DatabaseError
+from .config import DatabaseConfig
+from .exceptions import DatabaseError
 
 logger = logging.getLogger(__name__)
 

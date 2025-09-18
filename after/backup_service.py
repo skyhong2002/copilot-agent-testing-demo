@@ -1,8 +1,8 @@
 import datetime
 import logging
 from typing import List, Dict, Any
-from config import BackupConfig, APIConfig
-from exceptions import BackupError
+from .config import BackupConfig, APIConfig
+from .exceptions import BackupError
 
 logger = logging.getLogger(__name__)
 

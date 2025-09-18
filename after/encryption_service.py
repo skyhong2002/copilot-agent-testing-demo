@@ -1,8 +1,8 @@
 import base64
 import logging
 from typing import Any, Optional
-from config import APIConfig
-from exceptions import EncryptionError
+from .config import APIConfig
+from .exceptions import EncryptionError
 
 logger = logging.getLogger(__name__)
 

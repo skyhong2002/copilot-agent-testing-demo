@@ -1,7 +1,7 @@
 import logging
 from typing import Optional
-from config import LDAPConfig
-from exceptions import AuthenticationError
+from .config import LDAPConfig
+from .exceptions import AuthenticationError
 
 logger = logging.getLogger(__name__)
 

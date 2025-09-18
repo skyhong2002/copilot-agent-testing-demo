@@ -1,7 +1,7 @@
 import json
 import xml.etree.ElementTree as ET
 from typing import Dict, Any, Optional
-from exceptions import ParseError
+from .exceptions import ParseError
 
 class DataParser:
     """Handles data parsing operations."""
